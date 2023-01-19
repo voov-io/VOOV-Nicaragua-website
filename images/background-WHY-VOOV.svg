@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="884" viewBox="0 0 1366 884">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_107" data-name="Rectangle 107" width="1366" height="884" transform="translate(0 2304)" fill="#ffb71b"/>
+    </clipPath>
+  </defs>
+  <g id="background-WHY-VOOV" transform="translate(0 -2304)" clip-path="url(#clip-path)">
+    <g id="background-WHY-VOOV-2" data-name="background-WHY-VOOV">
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="1366" height="884" transform="translate(0 2304)" fill="#ffb71b"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M373,0,746,646H0Z" transform="translate(-273 2542)" fill="#76bc21"/>
+      <g id="Mask_Group_12" data-name="Mask Group 12" clip-path="url(#clip-path)">
+        <ellipse id="Ellipse_21" data-name="Ellipse 21" cx="330.5" cy="331" rx="330.5" ry="331" transform="translate(1036 2304)" fill="#3cb4e5"/>
+      </g>
+    </g>
+  </g>
+</svg>

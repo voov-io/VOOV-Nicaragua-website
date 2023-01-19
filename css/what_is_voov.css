@@ -1,0 +1,61 @@
+.what__is__voov{
+    position: relative;
+    overflow: hidden;
+}
+.container-text{
+    width: 50%;
+}
+.container-img{
+    width: 50%;
+    
+}
+.container-img.alignRight{
+    text-align: right;
+}
+
+.container-img.alignLeft{
+    text-align: left;
+}
+
+.container-img img{
+    width: 70%;
+}
+
+.what__is__voov .circle{
+    left: -10%;
+    bottom: 0;
+    
+}
+.what__is__voov .triangle{
+    right: -52%;
+    top: -17%;
+    transition: all;
+    animation: rotate 30s infinite;
+}
+
+.what__is__voov__mision{
+    position: relative;
+    overflow: hidden!important;
+}
+.what__is__voov__mision .circle{
+    right: -10%;
+    bottom: 0;
+}
+
+@keyframes rotate {
+    form{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+
+@keyframes floting {
+    from{
+        bottom: 10%;
+    }
+    to{
+        bottom: 0;
+    }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109" height="109" viewBox="0 0 109 109">
+  <g id="icon-1-why-voov" transform="translate(-162 -2684)">
+    <g id="Ellipse_19" data-name="Ellipse 19" transform="translate(162 2684)" fill="none" stroke="#ff4713" stroke-width="2">
+      <circle cx="54.5" cy="54.5" r="54.5" stroke="none"/>
+      <circle cx="54.5" cy="54.5" r="53.5" fill="none"/>
+    </g>
+    <g id="Group_67" data-name="Group 67" transform="translate(3)">
+      <circle id="Ellipse_40" data-name="Ellipse 40" cx="8" cy="8" r="8" transform="translate(183 2722)" fill="#ff4713"/>
+      <circle id="Ellipse_41" data-name="Ellipse 41" cx="8" cy="8" r="8" transform="translate(229 2722)" fill="#76bc21"/>
+    </g>
+    <path id="Polygon_30" data-name="Polygon 30" d="M14.412,4.415a3,3,0,0,1,5.176,0L31.352,24.483A3,3,0,0,1,28.764,29H5.236a3,3,0,0,1-2.588-4.517Z" transform="translate(200 2744.5)" fill="#ffb71b"/>
+    <rect id="Rectangle_80" data-name="Rectangle 80" width="76" height="9" rx="3" transform="translate(179 2738)" fill="#3cb4e5"/>
+  </g>
+</svg>

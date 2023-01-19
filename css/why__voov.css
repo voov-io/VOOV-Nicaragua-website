@@ -1,0 +1,29 @@
+.why__voov{
+    margin-top: 2em;
+    background-image: url("/images/background-WHY-VOOV.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container--info{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4em 3em;
+    text-align: center;
+}
+
+.why__voov--reasons{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 8em);
+    gap: 1.5em;
+    place-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.reasonWhy .icon{
+    width: 6.8em;
+    margin-bottom: 1em;
+}
+
+.reasonWhy--title{
+    font-size: 1em;
+}

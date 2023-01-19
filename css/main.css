@@ -1,0 +1,135 @@
+.main{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    min-height:48em;
+    color:white
+}
+
+.main--logo{
+    height: 2em;
+    width: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.main--img{
+    width: 60%;
+    position: relative;
+    z-index:3 ;
+}
+.main--img img{
+    width:125%;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+}
+.background-text{
+    background-color:var(--colorGreen);
+    text-align: center;
+    min-height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+.background-text h1{
+    font-size: 4.5em;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    z-index: 2;
+
+}
+.background-text strong{
+    background-color:var(--colorOrange);
+    padding: 0 0.5em;
+    font-size: 0.6em!important;
+    font-weight: 500;
+}
+.main--form{
+    background-color:var(--colorOrange);
+    width: 40%;
+    position: relative;
+}
+.circle_main{
+    width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--colorYellow);
+    top: 15%;
+    z-index: 1;
+
+}
+.circleform{
+
+   
+    position: absolute;
+    right: -50%;
+}
+
+.main--form form{
+    margin: 3.5em;
+    padding: 2.5em;
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.main--form form h2{
+    color: black;
+    font-weight: 600;
+    font-size: 1.75em;
+    margin-bottom: .5em;
+}
+
+.main--form form input, .main--form form select{
+    width: 100%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid var(--colorBorderGrey);
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    max-height: 4em;
+    min-height: 4em;
+    font-size: 1em;
+    color: var(--colorBorderGrey);
+}
+.main--form form label {
+    color: var(--colorBorderGrey);
+}
+::-webkit-file-upload-button{
+    display: none;
+}
+.terms{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.terms #terms{
+    width: 50px;
+    height: 50px;
+    background-color: var(--colorBorderGrey);
+    border: none;
+    margin-right: 1em;
+}
+
+.terms label{
+ font-size:0.75em ;
+}
+input[type="button"] {
+    background-color: var(--colorbluesky);
+    color: white!important;
+    font-size: 1.5em;
+    font-weight: 700;
+    border: none!important;
+    font-family: 'Jost', sans-serif;
+}
+
