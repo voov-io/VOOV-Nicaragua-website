@@ -1,0 +1,38 @@
+.gallery{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.gallery p{
+    margin-bottom: 3em;
+}
+.gallery .circle.green{
+    left: -5%;
+    bottom: 0;
+    z-index: -1;
+}
+.gallery .circle.blue{
+    right: -10%;
+    top: 20%;
+    z-index: -1;
+    transition: all;
+    animation: floting 3s infinite alternate;
+}
+.gallery .triangle{
+    left: -20%;
+    top: 0;
+    z-index: -1;
+    transition: all;
+    animation: rotate 30s infinite;
+    width: 18em;
+}
+.gallery .gallery-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,13em);
+    gap: .5em;
+    place-content: center;
+}
+.gallery .gallery-container img:first-child{
+    grid-row-end: span 2;
+    grid-column-end: span 2;
+}

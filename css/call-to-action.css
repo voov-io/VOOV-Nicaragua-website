@@ -1,0 +1,41 @@
+.call-to-action{
+    background-image: url("/images/background-call-to-action.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-to-action .container{
+    align-items: center;
+    position: relative;
+}
+.call-text{
+    width: 60%;
+}
+.call-to-action h2{
+    color: white;
+}
+
+.call-to-action picture{
+    display: inline-block;
+    width: 50%;
+
+}
+.call-to-action picture img{
+    position: absolute;
+    bottom: 0;
+    width: 46%;
+}
+@media screen and (max-width:1024px) {
+    .call-to-action{
+        background-size: 140%;
+        background-position: center;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .call-to-action{
+        background-size: 230%;
+        background-position: center;
+    }
+    
+}

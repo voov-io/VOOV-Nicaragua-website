@@ -9,11 +9,15 @@
 }
 *{
     font-family: 'Jost', sans-serif;
-}
+    
+   }
 body,input::-webkit-input-placeholder, select { /* WebKit browsers */
     
     font-family: 'Jost', sans-serif;
     font-size: 17px;
+}
+html{
+   scroll-behavior: smooth;
 }
 .container{
     max-width: 1366px;
@@ -29,7 +33,10 @@ body,input::-webkit-input-placeholder, select { /* WebKit browsers */
     font-weight: 700;
     border-radius: 25px;
 }
-
+.btn.blue{
+   background-color: var(--colorbluesky);
+   color: white;
+}
 .btn.line{ 
     border: 3px solid var(--colorOrange);
     color: var(--colorBlack );
@@ -88,6 +95,9 @@ p{
  .circle.yellow{
     background-color: var(--colorYellow);
  }
+ .circle.green{
+   background-color: var(--colorGreen);
+}
  .triangle{
     height: 18.28em;
     position: absolute;
