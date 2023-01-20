@@ -5,6 +5,10 @@
 .container-text{
     width: 50%;
 }
+
+.what__is__voov .container-text h3:nth-child(2){
+    margin-top: 1em;
+}
 .container-img{
     width: 50%;
     

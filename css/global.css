@@ -19,6 +19,19 @@ body,input::-webkit-input-placeholder, select { /* WebKit browsers */
 html{
    scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+   width: 17px;
+   background:#dddddd;
+ }
+ ::-webkit-scrollbar-thumb {
+   background: var(--colorOrange);
+   border-radius: 15px;
+   transition: background ease-in-out 0.5s;
+ }
+ ::-webkit-scrollbar-thumb:hover {
+   background: var(--colorGreen);
+ }
 .container{
     max-width: 1366px;
     padding: 2em;
@@ -56,6 +69,7 @@ html{
  h3{
     font-size: 2em;
     padding-bottom: 1em;
+    padding-top: 1em;
  }
  h2,h3{
 
@@ -76,6 +90,7 @@ p{
     height: auto;
  }
  .circle{
+   z-index: -1!important;
     width: 15em;
     height: 15em;
     border-radius: 50%;

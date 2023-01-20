@@ -14,6 +14,7 @@
 }
 .header--buttons img:hover{
     transform: scale(1.1);
+    border-color: var(--colorGreen);
 }
 .header--titles p{
     color: var(--colorOrange);
@@ -27,14 +28,13 @@
 }
 
 .scroll-positions{
-    
-    display: flex;
-    gap: 1em;
-    overflow-x: scroll;
-    white-space: nowrap;
-    
-    
+ display: flex;
+ gap: 1em;
+ overflow-x: scroll; 
 }
+.scroll-positions:-webkit-scrollbar {
+    display: none;
+  }
 .container-position{
     padding: 2em;
     border-radius: 20px;
@@ -43,14 +43,18 @@
     box-shadow: 0px 28px 36px -10px rgba(228, 228, 228, 0.75);
     border: 0.5px solid #dddddd;
     position: relative;
-    width:20.3em ;
-    max-width: 20.3em;
-    min-height: 20.3em;
-
-    
-    
+    flex: 0 0 320px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    transition: all .5s ease-in-out;
+    background-color: white;
 }
-
+.container-position:hover{
+    transform: scale(1.1);
+    margin-left: 2em;
+    margin-right: 2em;
+    border-color: var(--colorGreen);
+}
 .container-position small{
     color: var(--colorBorderGrey);
     margin-bottom: 1em;
@@ -64,8 +68,8 @@
     text-align: left;
 }
 .container-position .iconPosition{
-    height: 4.18em;
-    width:4.18em ;
+    height: 3.18em;
+    width:3.18em ;
     position: absolute;
     top: 5%;
     right: 5%;
