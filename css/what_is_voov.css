@@ -63,3 +63,29 @@
         bottom: 0;
     }
 }
+
+@media screen and (max-width:536px) {
+    .what__is__voov .container{
+        flex-direction: column-reverse;
+    }
+    .what__is__voov .container-img img, .container-text, .container-img, .what__is__voov__mision .container-img img  {
+        width: 100%;
+        text-align: center;
+    }
+    .what__is__voov__mision .container{
+        flex-direction: column;
+    }
+    .container-img.alignLeft{
+
+        text-align: center;
+    }
+
+    .what__is__voov__mision .circle {
+        right: -40%;
+    }
+    .what__is__voov .circle {
+        left: -50%;
+    }
+}
+
+

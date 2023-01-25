@@ -37,5 +37,29 @@
         background-size: 230%;
         background-position: center;
     }
+
+}
+
+@media screen and (max-width:536px) {
+    .call-to-action .container {
+      flex-direction: column;
+    }
+
+    .call-to-action h2 {
+        font-size: 2.75em;
+    }
     
+.call-to-action picture img {
+
+    left: -10%;
+}
+    
+}
+
+@media screen and (max-width:426px) {
+    .call-to-action{
+        background-size: 430%;
+        background-position: center;
+    }
+
 }
