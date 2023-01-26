@@ -6,26 +6,26 @@
     min-height:48em;
     color:white
 }
-
+.header-logo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2em;
+}
 .main--logo{
-    height: 2.5 em;
+    height: 2.5em;
     width: auto;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    z-index: 9;
+    padding: 2em;
 }
 .main--img{
     width: 60%;
     position: relative;
     z-index:3 ;
 }
-.main--img img{
-    width:110%;
-    height: auto;
+.main--img .main-guy{
+   width:115%;
     z-index: 2;
-    position: absolute;
-    bottom: 0;
+   
 }
 .background-text{
     background-color:var(--colorGreen);
@@ -55,8 +55,15 @@
 }
 .main--form{
     background-color:var(--colorOrange);
+    background-image: url("/images/background-form.svg");
     width: 40%;
-    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .circle_main{
     width: 100%;
@@ -76,12 +83,13 @@
 }
 
 .main--form form{
-    margin: 3.5em;
+    margin: 0 auto;
     padding: 2.5em;
     z-index: 2;
     position: absolute;
     background-color: white;
     border-radius: 20px;
+    width: 30%;
 }
 
 .main--form form h2{
@@ -152,26 +160,75 @@ input[type="button"] {
     }
 
 }
-@media screen and (max-width:768px) {
 
+@media screen and (max-width:769px) {
+
+    .background-text h1
+    {
+        font-size: 3.5em;
+        text-align: center;
+    }
     .background-text strong{
-        font-size: 0.3em!important;
+        font-size: 0.5em!important;
+    }
+
+    .main--img .main-guy{
+        width: 140%;
+    }
+    .main--logo{
+        margin-bottom: 3em;
+
     }
 
 }
 
-@media screen and (max-width:733px) {
+@media screen and (max-width:587px) {
 
-    .background-text strong{
-        font-size: 0.3em!important;
-    }
-    .main--img img{
-        
-        top: 20%;
-    }
+   main{
+    flex-direction: column;
+    min-height: 83em!important
+   }
+   .main--logo {
+    height: 3.5em;
+}
+   main .main--img, main .main--form{
+    width: 100%;
+   }
+   .header-logo {
+       display: flex;
+       align-items: center;
+   }
+   .main--img .main-guy{
+     width: 100%;
+   }
+   main .background-text{
+        bottom: -19%
+   }
+   .main--form form {
+        width: 70%;
+        margin-top:15%;
+        z-index: 3;
+   }
+   .main--form{
+       height: -webkit-fill-available;
 
-    .main {
-        flex-direction: column;
-    }
+   }
 
+   .background-text h1 {
+    font-size: 4em;
+}
+
+}
+
+@media screen and (max-width:375px) {
+    main .background-text {
+        bottom: -60%;
+    }
+    .background-text h1 {
+        font-size: 3em;
+    }
+    .main--form form {
+
+        margin-top:40%;
+   }
 }

@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="957" height="768" viewBox="0 0 957 768">
-  <g id="background-form" transform="translate(-809)">
-    <g id="Group_69" data-name="Group 69">
-      <rect id="Rectangle_53" data-name="Rectangle 53" width="557" height="768" transform="translate(809)" fill="#ff4713"/>
-      <circle id="Ellipse_31" data-name="Ellipse 31" cx="335.5" cy="335.5" r="335.5" transform="translate(1095 49)" fill="#ffb71b"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="446" viewBox="0 0 298 446">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Intersection_6" data-name="Intersection 6" d="M-1496,327V-119h298V327Z" transform="translate(1809 119)" fill="#ff4713"/>
+    </clipPath>
+  </defs>
+  <g id="background-form" transform="translate(-313 0)" clip-path="url(#clip-path)">
+    <path id="Intersection_5" data-name="Intersection 5" d="M-1496,327V-119h298V327Z" transform="translate(1809 119)" fill="#ff4713"/>
+    <ellipse id="Ellipse_51" data-name="Ellipse 51" cx="211.5" cy="211" rx="211.5" ry="211" transform="translate(457)" fill="#ffb71b"/>
   </g>
 </svg>
